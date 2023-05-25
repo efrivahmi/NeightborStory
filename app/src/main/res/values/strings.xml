@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cerita Tetanggaku</string>
+    <string name="language">Ubah Bahasa</string>
+    <string name="logout">Keluar</string>
+    <string name="welcome_description">Ceritakan apa yang terjadi hari ini, kalian bisa bercerita kepada kita semua.</string>
+    <string name="welcome_title">Cerita Tetanggaku</string>
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="email_input">"Isi email anda disini! "</string>
+    <string name="wrong_email">Kamu memasukan email yang salah!</string>
+    <string name="input_password">Tolong masukan password anda disini!</string>
+    <string name="password_length">Password tidak boleh kurang dari 8 karakter!</string>
+    <string name="input_name">Tolong isikan nama anda!</string>
+    <string name="invalid_name">Nama terlalu pendek!</string>
+    <string name="password_valided">Please confirm your password</string>
+    <string name="name_story">Nama</string>
+    <string name="welcome_login">Selamat Datang di Neighbor Story</string>
+    <string name="ti_email">Email</string>
+    <string name="ti_password">Password</string>
+    <string name="signin">atau daftar</string>
+    <string name="view_password">Lihat Password</string>
+    <string name="welcome_register">Silahkan daftar terlebih dahulu</string>
+    <string name="ti_name">Nama</string>
+    <string name="neighbor">Neighbor</string>
+    <string name="title">Judul</string>
+    <string name="description">Deskripsi</string>
+    <string name="add_story">Buat Cerita</string>
+    <string name="name">Nama</string>
+    <string name="btn_camera">Kamera</string>
+    <string name="btn_gallery">Galeri</string>
+    <string name="btn_upload">Unggah Gambar</string>
+    <string name="input_image">Add your story</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="location">Open Maps</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="retry">Muat Ulang</string>
+    <string name="checkbox">Share Location ?</string>
+    <string name="img_detail">Detail User</string>
+</resources>

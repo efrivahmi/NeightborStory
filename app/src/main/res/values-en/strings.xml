@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Neighbor Story</string>
+    <string name="language">Change Language</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_description">Tell what happened today, you can tell us all.</string>
+    <string name="welcome_title">Neighbor Story</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email_input">Input your email here!</string>
+    <string name="wrong_email">Email invalid!</string>
+    <string name="input_password">Input your password here!</string>
+    <string name="password_length">Password cannot be less than 8 characters!</string>
+    <string name="input_name">Please enter your name!</string>
+    <string name="invalid_name">Name too short!</string>
+    <string name="password_valided">Please confirm your password</string>
+    <string name="name_story">Name</string>
+    <string name="welcome_login">Welcome to neighbor story</string>
+    <string name="ti_email">Email</string>
+    <string name="ti_password">Password</string>
+    <string name="signin">or sign in</string>
+    <string name="view_password">See Password</string>
+    <string name="welcome_register">Please register first</string>
+    <string name="ti_name">Name</string>
+    <string name="neighbor">Neighbor</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="add_story">Create Story</string>
+    <string name="name">Name</string>
+    <string name="btn_camera">Camera</string>
+    <string name="btn_gallery">Gallery</string>
+    <string name="btn_upload">Upload Image</string>
+    <string name="input_image">Add your story</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="location">Open Maps</string>
+    <string name="normal_type">Normal</string>
+    <string name="satellite_type">Satellite</string>
+    <string name="terrain_type">Terrain</string>
+    <string name="hybrid_type">Hybrid</string>
+    <string name="retry">Muat Ulang</string>
+    <string name="checkbox">Share Location ?</string>
+    <string name="img_detail">Detail User</string>
+</resources>

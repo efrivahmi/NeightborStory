@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.login.LoginNeighborActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_bg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/moon"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcome_register"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="371dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/register"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_welcome"
+        tools:ignore="TextSizeCheck" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameInput"
+        style="@style/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_register">
+
+        <com.efrivahmi.neighborstory.ui.custom.Name
+            android:id="@+id/ti_name"
+            android:layout_width="match_parent"
+            android:hint="@string/ti_name"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            tools:ignore="VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailInput"
+        style="@style/Input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameInput">
+
+        <com.efrivahmi.neighborstory.ui.custom.Email
+            android:id="@+id/ti_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ti_email"
+            android:inputType="text"
+            tools:ignore="VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passInputLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Input"
+        android:padding="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/emailInput">
+
+        <com.efrivahmi.neighborstory.ui.custom.InputPassword
+            android:id="@+id/ti_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ti_password"
+            android:inputType="text"
+            tools:ignore="VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/register"
+        android:textColor="#1B5E20"
+        app:layout_constraintTop_toBottomOf="@id/see_password"
+        tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="@style/progressBar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
+
+    <CheckBox
+        android:id="@+id/see_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:text="@string/view_password"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passInputLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
